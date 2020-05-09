@@ -9,7 +9,7 @@ Basic HTTP Server which generates token and validates session token
 ### Installing
 - Pull repo
 - Open terminal from project root directory
-- Run the Server (Listening @ 8082)
+- Run the Server (Listening @ 8081)
 
         > go run main.go
     * Use API tool like POST MAN to test

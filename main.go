@@ -57,7 +57,7 @@ func handleHTTP() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/login", GenerateAuthToken)
 	mux.HandleFunc("/validate", ValidateSession)
-	log.Fatal(http.ListenAndServe(":8082", mux))
+	log.Fatal(http.ListenAndServe(":8081", mux))
 }
 func main() {
 	fmt.Println("GO Runnning")
